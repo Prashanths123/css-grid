@@ -1,0 +1,17 @@
+img{
+    height: 100%;
+    width: 100%;
+    border: rgb(0, 255, 17) 5px solid;
+  }
+  
+  .gridcontainer{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);  
+    grid-template-rows:repeat(3,1fr);
+   
+  }
+  
+  body{
+    background: black;
+  }
